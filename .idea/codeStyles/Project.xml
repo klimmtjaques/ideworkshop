@@ -1,0 +1,18 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <JavaCodeStyleSettings>
+      <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="50" />
+      <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="30" />
+    </JavaCodeStyleSettings>
+    <codeStyleSettings language="HTML">
+      <indentOptions>
+        <option name="USE_TAB_CHARACTER" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+    <codeStyleSettings language="JAVA">
+      <indentOptions>
+        <option name="TAB_SIZE" value="1" />
+      </indentOptions>
+    </codeStyleSettings>
+  </code_scheme>
+</component>
