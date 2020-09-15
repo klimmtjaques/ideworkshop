@@ -4,16 +4,18 @@ import java.util.Objects;
 
 public class Cow extends Animal {
 
+    private String color;
     /**
      * Constructs a cow
      * <p>
      * Age must be greater than 0
-     *
-     * @param age  The age of the cow
+     *  @param age  The age of the cow
      * @param name The name of the cow
+     * @param color
      */
-    public Cow(int age, String name) {
+    public Cow(int age, String name, String color) {
         super(age, name);
+        this.color = color;
     }
 
     @Override
@@ -43,5 +45,13 @@ public class Cow extends Animal {
 
     public int getMilkLiters() {
         return 2 * age;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 }

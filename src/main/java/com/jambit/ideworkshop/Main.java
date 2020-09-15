@@ -10,10 +10,10 @@ public class Main
     public static void main(String[] args)
     {
 
-        new Cow(START_AGE, "");
-        Cow cow = new Cow(2, "Berta");
+        new Cow(START_AGE, "", "black");
+        Cow cow = new Cow(2, "Berta", "brown");
 
-        Cow cow2 = new Cow(2, "Berta");
+        Cow cow2 = new Cow(2, "Berta", "brown");
         printGoatFacts(cow);
         printGoatFacts(cow2);
         System.out.println("Cows are equal " + (cow.equals(cow2)));
