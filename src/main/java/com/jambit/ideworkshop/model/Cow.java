@@ -11,7 +11,7 @@ public class Cow extends Animal {
      * Age must be greater than 0
      *  @param age  The age of the cow
      * @param name The name of the cow
-     * @param color
+     * @param color The color of the cow
      */
     public Cow(int age, String name, String color) {
         super(age, name);
