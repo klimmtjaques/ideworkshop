@@ -11,7 +11,9 @@ public class Stable {
     }
 
     public int getMilkLiters() {
-        return cows.stream().mapToInt(Cow::getMilkLiters).sum();
+        return cows.stream()
+                .mapToInt(Cow::getMilkLiters)
+                .sum();
     }
 
 }
